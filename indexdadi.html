@@ -8,7 +8,54 @@
     <title>Js Dadi</title>
 </head>
 <body>
-    <main></main>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+            <div class="container">
+              <a class="navbar-brand" href="#">Dice Game</a>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <section class="py-4">
+      
+              <div class="card mb-5">
+                <div class="card-header bg-warning text-white">
+                  Giocatori
+                </div>
+      
+                <div class="card-body">
+                  <form>
+                    <div class="row g-5">
+                      <div class="col">
+                        <div class="mb-3">
+                          <label for="exampleFormControlInput1" class="form-label my-user">Giocatore</label>
+                          <div class="bg-success text-white">
+                            <h3>Il tuo risultato</h3>
+                            <p class="my-demo"></p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="mb-3">
+                          <label for="exampleFormControlInput1" class="form-label the-computer">Computer</label>
+                          <div class="bg-success text-white">
+                            <h3>Il tuo risultato</h3>
+                            <p class="my-demo2"></p>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+      
+                    <div class="d-flex gap-2 justify-content-center">
+                      <button type="button" class="btn btn-primary" id="btn_submit">Genera</button>
+                      <button type="button" class="btn btn-outline-secondary" id="btn_cancel">Annulla</button>
+                    </div>
+      
+                  </form>
+                </div>
+            </div>
+          </section>
+    </main>
     <script src="jsdadi/maindadi.js"></script>
 </body>
 </html>
