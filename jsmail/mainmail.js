@@ -10,7 +10,7 @@ for (let i = 0; i < mailList.length; i++) {
   
     console.log(mailList[i])
 
-    if(mailGuide.includes(mailUser)) {
+    if(mailGuide === mailUser) {
         alert("Benvenuto nel sito!")
     }
 
